@@ -1,0 +1,297 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <style>
+            .first-page-heading{
+                width:90%;
+                line-height: 50px;
+                margin-top: -22px;
+            }
+            .pre-heading{
+                margin-top:100px;
+            }
+
+            .capital-container {
+                font-size: 25px;
+                line-height: 28px;
+                margin-top: 10%;
+            }
+            .popular-specialities {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .picture {
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .picture img {
+                max-width: 100%;
+                height: auto;
+            }
+            .search-bar {
+                display: flex;
+                justify-content: center;
+                background-color: WHITE;
+                color: white;
+                position:relative;
+                border:2px solid rgb(246, 238, 238);
+                right:3%;
+                width:25%;
+                border-radius: 5px; 
+            }
+            .m-left-content {
+                display: flex;
+                flex-direction: column; 
+                flex-wrap:wrap;
+            }
+            .left-descryption {
+                font-size: 17px;
+                margin-bottom: 20px;
+                margin-left: 3%;
+                width:100%; 
+            }
+            .search-BAR input[type=search] {
+                width:90%;
+                height:45px;
+                border-radius:5px;
+                border:none
+            }
+
+            .ps-more, .ps {
+                background-color: #ebebef;
+                padding: 10px;
+                text-align: center;
+                margin-bottom: 5px;
+                margin-left:10px; 
+            }
+            .plus{
+                color:#2cc8b3;
+            }
+            .ps-more{
+                color:#2cc8b3;
+                background-color: rgb(252, 248, 248);
+            }
+            .search-bar .fa-search{
+                 font-size :18px;
+                 COLOR:white;
+                 BACKGROUND-COLOR:#2cc8b3; 
+                 position:absolute;
+                 margin-left:87%;
+                 top:6px;
+                 padding:7px; 
+             }
+
+             @media (min-width: 800px) {
+                 .m-left-content {
+                     flex-direction: row; 
+                     flex-wrap: nowrap;
+                     margin-top: 5%;
+                 }
+                 .left-descryption, .picture {
+                     width: 50%;
+                 }
+                 .left-descryption {
+                     padding-right: 10px; 
+                 }
+                 .first-page-heading{
+                     line-height:50px; 
+                 }
+                 .picture {
+                     padding-left: 10px;
+                 }
+                 .search-bar {
+                     width: 94%;
+                     margin-left:auto; 
+                     margin-right:auto; 
+                 }
+                 .popular-specialities {
+                     width:auto; 
+                 }
+                 .ps-more, .ps {
+                     width:auto;  
+                     margin-bottom:auto; 
+                 }
+                 .PICTURE IMG{
+                     HEIGHT:auto; 
+                     object-fit: cover; 
+                 }
+                 .findme{
+                     opacity:0.55;
+                     font-size: 15px;
+                 }  
+             }  
+        </style>
+    </head>
+<body>
+    <html>
+        <head>
+            <title></title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <style>
+                .first-page-heading{
+                    width:90%;
+                    line-height: 50px;
+                    margin-top: -22px;
+                }
+                .pre-heading{
+                    margin-top:100px;
+                }
+    
+                .capital-container {
+                    font-size: 25px;
+                    line-height: 28px;
+                    margin-top: 10%;
+                }
+                .popular-specialities {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .picture {
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                .picture img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                .search-bar {
+                    display: flex;
+                    justify-content: center;
+                    background-color: WHITE;
+                    color: white;
+                    position:relative;
+                    border:2px solid rgb(246, 238, 238);
+                    right:3%;
+                    width:25%;
+                    border-radius: 5px; 
+                }
+                .m-left-content {
+                    display: flex;
+                    flex-direction: column; 
+                    flex-wrap:wrap;
+                }
+                .left-descryption {
+                    font-size: 17px;
+                    margin-bottom: 20px;
+                    margin-left: 3%;
+                    width:100%; 
+                }
+                .search-BAR input[type=search] {
+                    width:90%;
+                    height:45px;
+                    border-radius:5px;
+                    border:none
+                }
+    
+                .ps-more, .ps {
+                    background-color: #ebebef;
+                    padding: 10px;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    margin-left:10px; 
+                }
+                .plus{
+                    color:#2cc8b3;
+                }
+                .ps-more{
+                    color:#2cc8b3;
+                    background-color: rgb(252, 248, 248);
+                }
+                .search-bar .fa-search{
+                     font-size :18px;
+                     COLOR:white;
+                     BACKGROUND-COLOR:#2cc8b3; 
+                     position:absolute;
+                     margin-left:87%;
+                     top:6px;
+                     padding:7px; 
+                 }
+    
+                 @media (min-width: 800px) {
+                     .m-left-content {
+                         flex-direction: row; 
+                         flex-wrap: nowrap;
+                         margin-top: 5%;
+                     }
+                     .left-descryption, .picture {
+                         width: 50%;
+                     }
+                     .left-descryption {
+                         padding-right: 10px; 
+                     }
+                     .first-page-heading{
+                         line-height:50px; 
+                     }
+                     .picture {
+                         padding-left: 10px;
+                     }
+                     .search-bar {
+                         width: 94%;
+                         margin-left:auto; 
+                         margin-right:auto; 
+                     }
+                     .popular-specialities {
+                         width:auto; 
+                     }
+                     .ps-more, .ps {
+                         width:auto;  
+                         margin-bottom:auto; 
+                     }
+                     .PICTURE IMG{
+                         HEIGHT:auto; 
+                         object-fit: cover; 
+                     }
+                     .findme{
+                         opacity:0.55;
+                         font-size: 15px;
+                     }  
+                 }  
+    
+                 @media (max-width: 800px) {
+                      .m-left-content {
+                          flex-direction: column;
+                      }
+                      .left-descryption, .picture {
+                          width: 100%;
+                      }
+                  }  
+            </style>
+        </head>
+    <body>
+    <div class="m-left-content">
+    <DIV class="left-descryption">
+    <div class="capital-container">
+    <h4 style="color:#2cc8b3;">care for your health</h4>
+    <h1 class="first-page-heading" ><B>Find the nearest specialist</B></h1>
+    </div>
+    <p class="abcd"> Book a private consultation and get in touch with one of our well trained and experienced doctors. We cover a large variety of specialties, with available locations both on the East and West Coast.
+    
+    </p>
+    
+    <div class="search-bar">
+    <input type="search" placeholder="name,specify,location..." >
+    <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+    <h2 class="ps-heading"><span class="plus">+</span>popular specialities:</h2>
+    <div class="popular-specialities">
+    <div class="ps"> cardialogist</div>
+    <div class="ps">pediatrican</div>
+    <div class="ps">urologist</div>
+    <div class="ps">dietician</div>
+    <div class="ps-more">More</div>
+    </div>
+    
+    </DIV>
+    <div class="picture">
+    <img src="https://demo.tagdiv.com/newspaper_doctors_pro/wp-content/uploads/2022/07/hero-graphic.png" style="text-decoration:none;">
+    </div>
+    </div>
+    
+    </body>
+    </html>
+    

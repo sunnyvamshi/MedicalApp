@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Your CSS here */
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="section" style="height:10000px;width:1000px;"></div>
+    <div class="image-container">
+        <div class="image"></div>
+    </div>
+    <div class="section" style="height:100px;width:1000px;"></div>
+
+    <script>
+        $(window).scroll(function() {
+            var scrollPos = $(window).scrollTop();
+            var imageContainerTop = $('.image-container').offset().top;
+            var imageContainerBottom = imageContainerTop + $('.image-container').outerHeight();
+
+            if(scrollPos > imageContainerTop && scrollPos < imageContainerBottom) {
+                $('.image').css('transform', 'rotateX(0deg)');
+            } else {
+                $('.image').css('transform', 'rotateX(-80deg)');
+            }
+        });
+    </script>
+</body>
+</html>

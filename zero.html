@@ -1,0 +1,700 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>doctor web page</title>
+    <STYLE>
+        .whole-class{
+            margin:auto;
+            width:auto;
+            height:auto;
+        }
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        .main-class {
+            
+            width: 96%;
+            height: 98%;
+            
+        }
+
+        .top-bar {
+            width: 97%;
+            height: 3%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .middle4 {
+            display: flex;
+            
+            justify-content: space-around;
+            background-color:white;
+            height: 25px;
+            align-items: center;
+            margin-top:10px;
+        }
+
+        .picture {
+            float: RIGHT;
+           
+            margin-left: 100px;
+        }
+
+        .m-left-content {
+            display: flex;
+            
+            margin-top: 50px;
+        }
+
+        .left-descryption {
+            font-size: 17px;
+            width: 850px;
+            margin-left: 50px;
+            
+        }
+
+        .ps {
+            background-color: rgb(200, 195, 195);
+            width: 100px;
+            text-align: center;
+            margin-left: 5px;
+        }
+
+        .popular-specialities {
+            display: flex;
+            width: 480px;
+            justify-content: space-between;
+        }
+
+        .ps-more {
+            color: rgb(22, 148, 148);
+            font-size: 19px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .plus {
+            color: rgb(3, 81, 81);
+            font-size: 25px;
+        }
+
+        .search-bar {
+            margin-left: -50px;
+            background-color: rgb(3, 81, 81);
+            color: white;
+            padding-top: 4px;
+            padding-bottom: 6px;
+            padding-left:5px;
+            padding-right: 5px;
+            
+        }
+
+        .first-page-heading {
+            font-size: 40px;
+        }
+
+        .capital-container {
+            
+            font-size: 25px;
+            line-height:15px;
+        }
+
+        .middle-content {
+            
+            height: 200px;
+            text-align: center;
+            background-color: #eaf6f6;
+        }
+
+        .second-middle {
+            display: flex;
+            baseline: center;
+            height:50px;
+        }
+
+        .second-middle div {
+            
+            font-size: 20px;
+            margin-top:auto;
+        }
+
+        
+        .pictext {
+            display: flex;
+            line-height: 6.5px;
+        }
+
+        .feautured-specialities {
+            height: 240px;
+        }
+
+        .health {
+            height: 130px;
+
+            justify-content: center;
+            margin-left:15px;
+        }
+        .health div {     
+            width: 110px;
+            height:110px;
+            margin-left: 15px;
+            border-radius:5px;
+        }
+
+        .designation {
+            font-size: 40px;
+            background-color: rgb(159, 225, 225);
+            color: black;
+            MARGIN-LEFT: -30PX;
+            WIDTH: 98%;
+            
+        }
+
+        .MHEALTH {
+            DISPLAY: FLEX;
+            justify-content:center;
+
+        }
+        .ps-heading{
+            color:#252627;
+        }
+        .middle-middle{
+            padding:30px;
+        }
+        .five {
+            opacity: 0.7;
+            margin-left: 10px;
+            color: black;
+        }
+        .work {
+            opacity: 0.8;
+        }
+        .small-box {
+            width: 55px;
+            height: 55px;
+            text-align: center;
+            margin-top: AUTO;
+            COLOR: BLACK;
+            BACKGROUND-COLOR: #edfbfb;
+            margin-left: 3px;
+        }
+        .container {
+            display: flex;
+            line-height: 8px;
+            
+            height: 150px;
+            justify-content: space-around;
+        }
+        .twoboxesmiddle {
+            display: flex;
+
+        }
+
+        .box {
+            margin-left: 12px;
+        }
+
+        .mini-conatiner {
+            display: flex;
+            margin-left:10px;
+        }
+        .feauture-heading{
+            text-align:center;
+
+        }
+        .feauture-heading2{
+            text-align:center;
+            opacity:0.6;
+        }
+        .designation2{
+            font-size:15px;
+            text-align:center;
+            margin-left:14px;
+            MARGIN-top:300px;
+            color:white;
+        }
+        .fd-heading{
+            font-size:26px;
+        }
+        .division4{
+
+         
+         width:auto;
+         height:300px;
+        }
+        .latest-boxes{
+
+        display:flex; 
+        justify-content:center;
+        }
+        .division4b{
+
+          height:250px; 
+          width:290px;
+        
+           margin-left:16px;
+        }
+        .b{
+            opacity:0.8;
+            width:290px;
+            line-height: 15px;
+            
+        }
+        .c{
+            opacity:0.8;
+            width:290px;
+            line-height:-0px
+        }
+        .lastc{
+            color:teal;
+            opacity:0.9;
+            margin-top: -20px;
+        }
+        .laSTDIVISION{
+
+         BACKGROUND-COLOR:#f1f9f9;
+          HEIGHT:330px;
+       
+           display:flex;
+            justify-content:center;
+            margin-top: 22px;
+        }
+        .rightsidebox {
+            width:290px; 
+         
+            margin-left: 15px;
+            margin-top:20px;
+        }
+        .MIDDLEBOXES{ 
+           
+            width:250px;
+            margin-left: 15px;
+            margin-top:20px;
+        }
+        .big-heading{
+            margin-left:34px;
+        }
+        .top-left-hand-heading{
+            display:inline-block;
+
+        }
+        .search-right{
+            display:inline;
+            margin-left: -1px;
+            
+            
+        }
+        .search input[type=search] {
+            height:35px;
+            border-radius:8px;
+        }
+        .search-right input[type=search] {
+            height:25px;
+            border-radius:2px;
+            background-color: #f1f9f9;
+        }
+        .search-right input[type=button]{
+            height:25px;
+            border-radius: 2px;
+            text-decoration: none;
+            border: #f1f9f9;
+        }
+        .contain {
+            display: flex;
+            align-items: center;
+            width:10000px;
+            margin:18px;
+            margin-top:29px;
+            background-color:white;
+        }
+        
+        .outline-box {
+            
+            
+            width:100%;
+            margin:10px;
+            padding-top:20px;
+            
+        }
+        
+        .text {
+            float: left;
+            font-size:24px;
+        }
+        
+        .button {
+            float: right;
+        }
+        
+    </STYLE>
+</head>
+
+<body>
+    <div class="whole-class">
+    
+    <div class="main-class">
+        <div class="top-bar">
+            <div class="big-heading">
+
+            
+            <span class="top-left-hand-heading"><i class="fa fa-search" aria-hidden="true" style="font-size:50px; "></i></span></i></span><span class="top-left-hand-heading" style="margin-top: 5px;"><b>Doctors</b><br>find your health</span>
+            </div>
+            
+            <div class="middle4" style="width: 850px;">
+                <div><span>all doctors</span><span><i class="fa fa-angle-right" aria-hidden="true"
+                            style="margin-left: 10px;"></i></span></div>
+                <div><span>news</span><span><i class="fa fa-angle-right" aria-hidden="true"
+                            style="margin-left: 10px;"></i></span></div>
+                <div><span><i class="fa fa-user-circle" aria-hidden="true"></i></span><span>myacount</span></div>
+
+                <div><span
+                        style="background-color: rgb(3, 81, 81); color:white; border:rgb(3, 81, 81);padding-bottom: 2.5px;padding-top: 3px; height:100px; width:19px;padding-left: 6px;padding-right: 6px;">Add
+                        A Listing</span><span><i class="fa fa-angle-right" aria-hidden="true"
+                            style="margin-left: 10px;"></i></span></div>
+
+            </div>
+           
+       <div style="margin-top:10px;">    
+  <span class="search-right" ><input type="search"  value="name,specify,location"></span><span class="search-right"><input type="button" value="search" style="background-color:black; color:white;"></span>
+  </div>
+        </div>
+        <div class="m-left-content">
+            <DIV class="left-descryption">
+                <div class="capital-container">
+                    <h3 style="color:rgb(3, 81, 81);">care for your health</h3>
+                    <h1 class="first-page-heading" >Find the nearest specialist</h1>
+                </div>
+                <p> book a private consulation of so and so website which is of good things and iam happy share my
+                    feeling and ya its ok to take many things i dont think its that wrong A doctor is responsible for
+                    all sides of care of a patient.
+                    They diagnose, educate, and treat patients to ensure that they have the best possible care. A few of
+                    the main duties of a doctor
+                    are performing diagnostic tests, recommending specialists for patients, document patient's medical
+                    history, and educating patients.Doctors' handwriting is a reference to the stereotypically illegible
+                    handwriting of some medical practitioners,
+                    which sometimes causes errors in dispensing. In the US, illegible handwriting has been indirectly
+                    responsible for at least 7,000 deaths annually.
+                </p>
+
+                <span class="search"><input type="search" value="name,specify,location..." style="width:800px;"></span>
+                <span class="search-bar"><i class="fa fa-search" aria-hidden="true" style="font-size:20px;"></i></span>
+                <h2 class="ps-heading"><span class="plus">+</span>popular specialities:</h2>
+                <div class="popular-specialities">
+                    <div class="ps"> cardialogist</div>
+                    <div class="ps">pediatrican</div>
+                    <div class="ps">urologist</div>
+                    <div class="ps">dietician</div>
+                    <div class="ps-more">More</div>
+                </div>
+
+            </DIV>
+            <div class="picture">
+                <img src="Screenshot 2023-08-28 123940.png" style="text-decoration:none;">
+            </div>
+        </div>
+        
+        <div class="middle-content">
+            <div class="middle-middle">
+            <h2>Are you a doctor? Do you want to get listed?</h2>
+            <span><input type="button" value="became a member"
+                    style=" width:160px; background-color: #2cc8b3;padding:15px; font-size:14px; color:white;"></span><span><i
+                        class="fa fa-angle-right" aria-hidden="true"
+                        style=" margin-left:-20px; font-size:20px; color:white; margin-top: 10px; padding-left: 3px;"></i></span>
+                </div>
+        </div>
+        <div class="featured doctors">
+            <div class="second-middle"  >
+                <div class="contain">
+                <div class="outline-box">
+                    <span class="text"><b>Featured Doctors</b></span> <!-- Text -->
+                    <input type="button" value="Browse All Doctors" class="button"> <!-- Button -->
+                 </div>
+                 </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="mini-conatiner" >
+                <div class="pictext">
+                    <div class="picture">
+                        <img src="hand7.jpg" style="width:150px;height:145px;">
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="content" style="color:teal;"> &#9733;&#9733;&#9733;&#9733;&#9733;<span class="five">5 out
+                            of5</span></p> <!-- Rating with stars -->
+                    <p class="content">John Doe</p> <!-- Name of the person -->
+                    <p class="work">dermatologist</p>
+                    <div class="twoboxesmiddle">
+                        <div class="small-box"><br><i class="fa fa-map-marker" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> chicago</SPAN></div>
+                                <div class="small-box"><br><i class="fa fa-usd" aria-hidden="true"
+                                    STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> 95</SPAN></div>
+                        
+                        <!-- Small box #1 --
+    
+                        <div class="small-box"><br><i class="fa fa-usd" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> 95</SPAN></div><!-- Small box #2 -->
+                    </div>
+                </div>
+            </div>
+            <div class="mini-conatiner">
+                <div class="pictext">
+                    <div class="picture">
+                        <img src="hand2.jpg" style="width:150px;height:145px;">
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="content" style="color:teal;"> &#9733;&#9733;&#9733;&#9733;&#9733;<span class="five">5 out
+                            of 5</span></p> <!-- Rating with stars -->
+                    <p class="content">John Doe</p> <!-- Name of the person -->
+                    <p class="work">dermatologist</p>
+                    <div class="twoboxesmiddle">
+                        <div class="small-box"><br><i class="fa fa-map-marker" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> chicago</SPAN></div>
+                        <!-- Small box #1 -->
+    
+                        <div class="small-box"><br><i class="fa fa-usd" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> 95</SPAN></div><!-- Small box #2 -->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mini-conatiner">
+                <div class="pictext">
+                    <div class="picture">
+                        <img src="hand3.jpg" style="width:150px;height:145px;">
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="content" style="color:teal;"> &#9733;&#9733;&#9733;&#9733;&#9733;<span class="five">5 out
+                            of 5</span></p> <!-- Rating with stars -->
+                    <p class="content">John Doe</p> <!-- Name of the person -->
+                    <p class="work">dermatologist</p>
+                    <div class="twoboxesmiddle">
+                        <div class="small-box"><br><i class="fa fa-map-marker" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> chicago</SPAN></div>
+                        <!-- Small box #1 -->
+    
+                        <div class="small-box"><br><i class="fa fa-usd" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> 95</SPAN></div><!-- Small box #2 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top:10px;">
+            <div class="mini-conatiner">
+                <div class="pictext">
+                    <div class="picture">
+                        <img src="hand8.jpg" style="width:150px;height:145px;">
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="content" style="color:teal;"> &#9733;&#9733;&#9733;&#9733;&#9733;<span class="five">5 out
+                            of 5</span></p> <!-- Rating with stars -->
+                    <p class="content">John Doe</p> <!-- Name of the person -->
+                    <p class="work">dermatologist</p>
+                    <div class="twoboxesmiddle">
+                        <div class="small-box"><br><i class="fa fa-map-marker" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> chicago</SPAN></div>
+                        <!-- Small box #1 -->
+    
+                        <div class="small-box"><br><i class="fa fa-usd" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> 95</SPAN></div><!-- Small box #2 -->
+                    </div>
+                </div>
+            </div>
+            <div class="mini-conatiner">
+                <div class="pictext">
+                    <div class="picture">
+                        <img src="hand9.jpg" style="width:150px;height:145px;">
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="content" style="color:teal;"> &#9733;&#9733;&#9733;&#9733;&#9733;<span class="five">5 out
+                            of 5</span></p> <!-- Rating with stars -->
+                    <p class="content">John Doe</p> <!-- Name of the person -->
+                    <p class="work">dermatologist</p>
+                    <div class="twoboxesmiddle">
+                        <div class="small-box"><br><i class="fa fa-map-marker" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> chicago</SPAN></div>
+                        <!-- Small box #1 -->
+    
+                        <div class="small-box"><br><i class="fa fa-usd" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> 95</SPAN></div><!-- Small box #2 -->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mini-conatiner">
+                <div class="pictext">
+                    <div class="picture">
+                        <img src="hand7.jpg" style="width:150px;height:145px;">
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="content" style="color:teal;"> &#9733;&#9733;&#9733;&#9733;&#9733;<span class="five">5 out
+                            of 5</span></p> <!-- Rating with stars -->
+                    <p class="content">John Doe</p> <!-- Name of the person -->
+                    <p class="work">dermatologist</p>
+                    <div class="twoboxesmiddle">
+                        <div class="small-box"><br><i class="fa fa-map-marker" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> chicago</SPAN></div>
+                        <!-- Small box #1 -->
+    
+                        <div class="small-box"><br><i class="fa fa-usd" aria-hidden="true"
+                                STYLE="COLOR:GREEN;"></i><br><br><SPAN CLASS="CHICAGO"> 95</SPAN></div><!-- Small box #2 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feautured-specialities">
+            <h1 class="feauture-heading"> feautured specialities</h1>
+            <h3  class="feauture-heading2" >we cover a large variety of specilaities with available locations both on the east
+                and west coast</h3>
+            <DIV CLASS="MHEALTH">
+                <div class="health">
+
+                    <div class="designation"><i class="fa fa-heartbeat" aria-hidden="true"
+                            STYLE=" margin-left: 30PX; margin-top:15px;COLOR:WHITE;  "></i>
+                    <h7 class="designation2">cardialogist</h7>
+                    </div>
+
+
+                </div>
+                
+                <div class="health">
+
+                    <div class="designation"><i class="fa fa-apple" aria-hidden="true"
+                            STYLE=" margin-left: 30PX; margin-top:15px;COLOR:WHITE;  "></i>
+                    <h7 class="designation2">cardialogist</h7>
+                    </div>
+
+
+                </div>
+
+                <div class="health">
+
+                    <div class="designation"><i class="fa fa-eye" aria-hidden="true"
+                            STYLE=" margin-left: 30PX; margin-top:15px;COLOR:WHITE;  "></i>
+                    <h7 class="designation2">cardialogist</h7>
+                    </div>
+
+
+                </div>
+
+                <div class="health">
+
+                    <div class="designation"><i class="fa fa-hand-paper-o" aria-hidden="true"
+                            STYLE=" margin-left: 30PX; margin-top:15px;COLOR:WHITE;  "></i>
+                    <h7 class="designation2">cardialogist</h7>
+                    </div>
+
+
+                </div>
+                <div class="health">
+
+                    <div class="designation"><i class="fa fa-user-o" aria-hidden="true"
+                            STYLE=" margin-left: 30PX; margin-top:15px;COLOR:WHITE;  "></i>
+                    <h7 class="designation2">cardialogist</h7>
+                    </div>
+
+
+                </div>
+            </DIV>
+            
+        </div>
+        <div class="division4" >
+            <h2 style="text-align:center;">Latest News</h2>
+            <div class="latest-boxes" >
+            <div class="division4b" >
+                <img src="newmedicines.avif" alt="Image 1" style="height:190px; width:290px;">
+                <p><b>This all are medicanes and wanna use this to avoid helath disorders</b></p>
+
+            </div>
+            <div class="division4b" >
+                <img src="mother-child.jpg" alt="Image 1" style="height:190px; width:290px;">
+                <p><b>This all are medicanes and wanna use this to avoid helath disorders</b></p>
+
+            </div>
+            <div class="division4b" >
+                <img src="doctorm.jpg" alt="Image 1" style="height:190px; width:290px;">
+                <p><b>This all are medicanes and wanna use this to avoid helath disorders</b></p>
+
+            </div>
+            <div class="division4b" >
+                <img src="maskgirl.jpg" alt="Image 1" style="height:190px; width:290px;">
+                <p><b>This all are medicanes and wanna use this to avoid helath disorders</b></p>
+
+            </div>
+           
+            </div>
+            <div class="laSTDIVISION" >
+               
+                <div class="rightsidebox" >
+                   
+                    <span><i class="fa fa-search" aria-hidden="true" style="font-size:40px;"></i></span><div style="margin-top: -33px;"><span
+                style=" margin-left:40px; text-align: left; padding-bottom: 60px;">Doctors<br><span class="x" style="margin-left: 43px; opacity:0.7; font-size: 13px;">find your health</span></span>
+            </span></div>
+        
+            <h6 class="b">
+                doctors are the one who will take care of everyones helath they are backbone 
+                of us thank god we have doctors to save us life
+            doctors are the one who will take care of everyones helath they are backbone of us thank god we have doctors to save us life</h6>
+            </h6>
+
+
+                </div>
+                
+                <div CLASS="MIDDLEBOXES" >
+                    <div class="c">
+                    <h3 >Company</h3>
+                    <h6>about</h6>
+                    <h6>contact</h6>
+                    <h6>phone</h6>
+                    <h6>about</h6>
+                    <h6>contact</h6>
+                    <h6>phone</h6>
+                    </div>
+
+                </div>
+
+                <div  CLASS="MIDDLEBOXES">
+                    <h3>Doctor Specialities</h3>
+                    <div class="c">
+                    <h6>cardialogist</h6>
+                    <h6>dermatologist</h6>
+                    <h6>anthrapologist</h6>
+                    <h6>dentist</h6>
+                    <h6>dermatologist</h6>
+                    <h6>anthrapologist</h6>
+                    <h6>dentist</h6>
+                    </div>
+
+
+                </div>
+                <div class="rightsidebox">
+                    <h3>Latest Articles</h3>
+                    <div class="b">
+                    <h6>ok fine we are the saviours and we are the agents and we are thanks to have a beggar like you and we are the agentb athreyaws</h6>
+                    <h6 class="lastc">may 12 2023</h6>
+                    <h6>ok fine we are the saviours and we are the agents and we are thanks to have a beggar like you and we are the agentb athreyaws</h6>
+                    <h6 class="lastc">feb 12 2023</h6>
+                    </div>
+                </div> 
+        </div>
+
+    </div>
+    </div>
+    
+</body>
+
+</html>

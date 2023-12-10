@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @media (min-width:800px){
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            background-color: DodgerBlue;
+        }
+    }
+
+        @media (max-width:800px) {
+            .flex-container {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+        }
+
+        .flex-container>div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>The flex-wrap Property</h1>
+
+    <p>The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary:</p>
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <p>Try resizing the browser window.</p>
+
+</body>
+
+</html>
+
+@media screen and (min-width: 800px){
+    .m-left-content {
+        flex-direction: row;
+       
+       
+        
+        margin-top: 5%;
+    }
+    .left-descryption, .picture {
+        width: 50%;
+    }
+    .left-descryption {
+        padding-right: 10px;
+        
+       
+    }
+    .first-page-heading{
+      line-height:50px;
+  
+    }
+    .picture {
+        padding-left: 10px;
+    }
+    .search-bar {
+        width: 94%;
+        margin-left:auto; 
+        margin-right:auto; 
+    }
+    .popular-specialities {
+        width:auto; 
+    }
+    .ps-more, .ps {
+        width:auto; 
+       
+        margin-bottom:auto; 
+    }
+    .PICTURE IMG{
+      HEIGHT:auto;
+     
+      object-fit: cover;
+  
+      
+    }
+    .findme{
+      opacity:0.55;
+      font-size: 15px;
+    }
+    
+  }
